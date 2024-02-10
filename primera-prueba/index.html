@@ -1,43 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitUP</title>
+    <!-- CDN para conectamre a boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Mi CSS -->
     <link rel="stylesheet" href="style.css">
+  </head>
+  
+  
+    <!-- CDN de JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
 
-    <title>SitioWebGimnasio</title>
-</head>
+  </html>
 <body>
     
     <!-- Inicio de header -->
-    <header>
-        
-        <section class="Main-titulo">
-            <h1>Fit</h1><h1 class="UP">UP</h1>
-        </section>
-        
-        
+    <section class="Main-titulo">
+        <h1>Fit</h1><h1 class="UP">UP</h1>
+    </section>
+    
+    <header class="header-index">
         <nav class="links-index">
-            <ul>
+            <ul class="ul-index">
                 <li><a href="Pages/locales.html">Locales</a></li>
                 <li><a href="Pages/iniciar-sesion.html">Iniciar sesión</a></li>
                 <li><a href="Pages/novedades.html">Novedades</a></li>
                 <li><a href="Pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    
-
     </header>
+
+
     <!-- Final de header -->
 
+    <!-- Carrusel Boostrap-->
     <section>
-        <img src="Images/Gymimage(take3).jpeg" alt="Enfocado un rack de mancuernas y desenfocado al fondo el gimnasio y una mujer haciendo ejercicio.">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/primera-prueba/Images/pexels-leon-ardho-1552242 (1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/primera-prueba/Images/pexels-william-choquette-1954524.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/primera-prueba/Images/pexels-victor-freitas-841130.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
+    <!-- Fin de carrusel boostrap-->
 
     <!-- Inicio de sección "Vos podes!!"-->
     <section class="vos-podes">
-        <h2>Vos podes!!</h2>
+        <h2 class="h2-index">Vos podes!!</h2>
        
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat atque corporis esse voluptatem, et quo ipsa reprehenderit consequatur debitis, iusto, possimus recusandae. Nesciunt ut dignissimos non enim, possimus dolore dolorum.
         Quia enim repellat pariatur, facere iusto iste vero cumque nisi sunt sit aliquam harum placeat, explicabo a tempora culpa! Fuga nihil rerum rem enim officiis ipsam, veritatis adipisci hic obcaecati.
@@ -58,9 +91,9 @@
     <!-- Inicio de footer -->
     <footer>
         <nav class="footer-links">
-            <div><a href="">Instagram</a></div>
-            <div><a href="">Facebook</a></div>
-            <div><a href="">Twitter</a></div>
+            <div><a href=""><img src="/primera-prueba/Images/" alt=""></a></div>
+            <div><a href=""><img src="" alt=""></a></div>
+            <div><a href=""><img src="" alt=""></a></div>
         </nav>
     </footer>
     <!-- Fin de footer -->

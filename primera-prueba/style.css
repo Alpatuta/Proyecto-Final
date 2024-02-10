@@ -9,10 +9,17 @@
 body {
     font-family: 'Roboto', sans-serif;
     
-    .Main-titulo{
-      margin: 30px 0px 50px 0px;
-      text-align: center;
-    }
+    .Main-titulo {
+        text-align: center;
+        padding: 10px;
+        background-color: #3c3c3c;
+      }
+    
+      .header-index {
+        position: sticky;
+        top: -0.1px;
+        z-index: 10;
+      }
 
     h1 {
         font-size: 40px;
@@ -20,29 +27,32 @@ body {
         display: inline;
     }
 
+    .h2-index {
+        margin: 10px 0px 30px 20px;
+        color:  #ff8c00;
+        text-align: center;
+    }
+
     .UP {
         font-size: 43px;
     }
-
-    h2 {
-        margin: 10px 0px 30px 20px;
-        color:  #ff8c00;
-    }
-    
-        
+            
     li{
         margin: 20px 130px 0px 150px;
         display: inline;
     }
 
     nav{
-        margin-top: 90px;
+        margin-top: 0px;
     }
 
     .links-index{
         background-color: #5f5f5f;
         padding: 10px 0px;
         text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 10;
     }
 
     a {
@@ -64,7 +74,7 @@ body {
     }
 
     div {
-        margin: 10px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         display: inline;
     }
 
@@ -74,9 +84,15 @@ body {
         margin-left: 20px;
     }
     
+    .ul-index{
+        margin-bottom: 0;
+    }
  
     background-color: #3c3c3c;  
 }
+
+
+
 /* Fin index */
 
 /* Novedades */
@@ -208,6 +224,7 @@ button {
 
 .aqui {
     color: #ff8c00;
+    
 }
 
 .funcionamiento-cuenta{
@@ -217,13 +234,9 @@ button {
 /* Fin iniciar sesion */
 
 /*Contacto*/
-.h2-contacto{
-    margin-left: 0px;
-}
-
 .titulo-contactos{
     text-align: center;
-    margin-top: 30px;
+    margin: 10px 0px;
 }
 
 .links-contacto{
@@ -248,6 +261,23 @@ button {
 .boton-contacto{
     margin-left: 20px;
 }
+
+.h1-contactos{
+    font-weight: 500;
+}
+
+.h2-contactos{
+    color:  #ff8c00;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.p-contactos{
+    margin-top: 20px;
+}
+
+/* Fin seccion contactos*/
 
 /* Seccion footer */
 footer {
