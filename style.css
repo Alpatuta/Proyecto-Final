@@ -39,7 +39,7 @@ body {
 
     .links-index{
         background-color: #5f5f5f;
-        padding: 10px 0px;
+        padding: 5px 0px;
         text-align: center;
         position: sticky;
         top: 0;
@@ -71,8 +71,9 @@ body {
 
     p {
         color: #fff;
-        margin-bottom: 30px;
-        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .ul-index{
@@ -91,6 +92,10 @@ body {
     position: sticky;
     top: -0.1px;
     z-index: 10;
+}
+
+.vos-podes-texto {
+    text-align: center;
 }
 
 /* Fin index */
@@ -421,6 +426,7 @@ button {
 
 .p-contactos{
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* Fin seccion contactos*/
