@@ -1,3 +1,23 @@
+.header-index {
+  position: sticky;
+  top: -0.1px;
+  z-index: 10;
+}
 
+.header-novedades {
+  margin: 300px 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ff8c00;
+  display: inline;
+}
+
+.h2-index {
+  margin: 10px 0px 30px 20px;
+  color: #ff8c00;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
