@@ -428,16 +428,33 @@ button {
     margin-top: 20px;
     margin-left: 20px;
 }
-
 /* Fin seccion contactos*/
 
 /*Media query Contactos mobile*/
-@media only screen (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .h2-contactos{
-       text-align: center;
-       display: flex;
-       justify-self: space-evenly; 
-    }  
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .p-contactos{
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .cajas-contacto{
+        text-align: center;
+    }
+
+    .boton-contacto{
+        text-align: center;
+    }
+
+    .formas-de-contacto{
+        font-size: 13px;
+        margin: 10px 32px;
+        
+    }
 }
 
 /* Seccion footer */

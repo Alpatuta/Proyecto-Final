@@ -1,0 +1,20 @@
+.links-index{
+    background-color: #5f5f5f;
+    padding: 5px 0px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.li-index{
+    margin: 20px 130px 0px 150px;
+    display: inline;
+}
+
+.links-contacto{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #5f5f5f;
+}
