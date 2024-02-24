@@ -13,7 +13,7 @@ body {
         text-align: center;
         padding: 10px;
         background-color: #3c3c3c;
-      }
+    }
 
     h1 {
         font-size: 40px;
@@ -430,6 +430,15 @@ button {
 }
 
 /* Fin seccion contactos*/
+
+/*Media query Contactos mobile*/
+@media only screen (max-width: 480px){
+    .h2-contactos{
+       text-align: center;
+       display: flex;
+       justify-self: space-evenly; 
+    }  
+}
 
 /* Seccion footer */
 footer {
