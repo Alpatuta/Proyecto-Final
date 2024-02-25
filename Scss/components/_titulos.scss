@@ -1,12 +1,20 @@
+@import '../base/extends';
+
+.Main-titulo {
+    text-align: center;
+    padding: 10px;
+    background-color: map-get($main-user , bg-color-standard );
+}
+
 h1 {
     font-size: 40px;
-    color: #ff8c00;
+    color: map-get($main-user, color-text-standard );
     display: inline;
 }
 
 .h2-index {
     margin: 10px 0px 30px 20px;
-    color:  #ff8c00;
+    color: map-get($main-user, color-text-standard );
     text-align: center;
 }
 
@@ -20,12 +28,12 @@ h1 {
 .h2-novedades{
     margin-left: 20px;
     margin-bottom: 10px;
-    color: #ff8c00;
+    color: map-get($main-user, color-text-standard );
     font-weight: 500;
 }
 
 .h2-iniciar-sesion{
-    color: #ff8c00;
+    color: map-get($main-user, color-text-standard );
     margin-top: 40px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -33,7 +41,7 @@ h1 {
 }
 
 .h2-iniciar-sesion-main{
-    color: #ff8c00;
+    color: map-get($main-user, color-text-standard );
     margin-top: 40px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -45,8 +53,36 @@ h1 {
 }
 
 .h2-contactos{
-    color:  #ff8c00;
+    color:  map-get($main-user, color-text-standard );
     margin-left: 20px;
     margin-top: 20px;
     font-weight: 500;
+}
+
+.derecha-titulo{
+    padding: 100px 100px 30px 214px;
+    color: map-get($main-user, color-text-standard );
+    
+}
+
+.Iniciar-sesión-titulo{
+    @extend %display;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: map-get($main-user, color-text-standard );
+}
+
+.titulo-contactos{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.formas-de-contacto{
+    margin: 10px 0px;
+}
+
+div {
+    margin: 0px 0px 0px 0px;
+    display: inline;
 }
